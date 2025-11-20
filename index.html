@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Index HTML</title>
+</head>
+
+<body>
+
+<header>
+   <table>
+  <tr>
+
+    <td style="width: 10%;">
+      <img src="./images/html-5.png" alt="Logo" width="70">
+      
+    </td>
+
+    <td style="text-align: left;">
+      <a href="index.html">Inicio</a> &emsp;&emsp;
+      <a href="Html/etiquetas.html">Etiquetas</a>&emsp;&emsp;
+      <a href="Html/atributos.html">Atributos</a>&emsp;&emsp;
+      <a href="Html/css.html">CSS</a> &emsp;&emsp;
+      <a href="Html/javascript.html">JavaScript</a>
+    </td> 
+
+    <td style="text-align: right; width: 11%;">
+      <a href="/Html/contacto.html">Contacto</a>&emsp; &emsp;
+      <a href="/Html/acercade.html">Acerca de</a>
+    </td>
+    <hr>
+
+  </tr>
+</table>
+
+  </header>
+
+<main>
+    <hr>
+<h1>Contenido</h1>
+    <ul>
+        <ol><a href="#queEsHtml">1- ¿Que es Html?</a></ol>
+        <ol><a href="#historiaHtml">2- Historia Html</a></ol>
+        <ol><a href="#editoresHtml">3- Editores Html</a></ol>
+        <ol><a href="#primerdocuumentoHtml">4- Tu Primer documento Html.</a></ol>
+        <ol><a href="#etiquetasHtml">5- ¿Que son Etiquetas en Html?</a></ol>
+        <ol><a href="#atributosHtml">6- ¿Que son Atributos en Html?</a></ol>
+        <ol><a href="#reglasHtml">7- Reglas fundamentales en Html</a></ol>
+        <ol><a href="#etiquetasdocumentoHtml">8- Etiquetas para hacer un Documento Html</a></ol>
+    </ul>
+
+   <center><h1>Index.html</h1></center>
+
+
+   <hr>
+   <div>
+    <h2 id="queEsHtml">¿Que es Html?</h2>
+    <p>HTML (Lenguaje de Marcado de Hipertexto) es el código fundamental que se usa para estructurar el contenido de una página web. Su función principal es organizar elementos como texto, imágenes, videos y enlaces mediante etiquetas, lo que permite que los navegadores interpreten y muestren la información en un sitio web. </p>
+   </div>
+  </hr>
+  
+  <hr>
+     <div>
+    <h2 id="historiaHtml">Historia HTML</h2>
+    <p>La historia del HTML empieza en 1989 cuando el investigador Tim Berners-Lee lo inventa con el fin de compartir artículos científicos. La primera versión sólo contaba con 18 etiquetas para texto. Lo que lo hacía especial es que podía ligar varios documentos con el hipertexto. Todo esto se podía visualizar en un navegador llamado World Wide Web.</p>
+    <p>Posteriormente surge el Internet Engineering Task Force. Esto se volvió tan relevante que surgió el World Wide Web Consortium (W3C) en 1993, un organismo que determinó las reglas para el HTML.</p>
+    <p>En 1996 llegó la versión HTML 3.2 la cual ha sido una de las más completas y que ha marcado la historia del HTML hasta nuestros días.</p>
+    <p>Es importante mencionar que en este tiempo se utilizaba un navegador de nombre NSCA Mosaic. Posteriormente se lanzó la primera versión de Netscape, quien en unos cuantos meses era usado por la mayoría de los usuarios en internet.</p>
+    <p>En la evolución de internet jugaron un papel fundamental otros lenguajes de programación. La introducción de Java o JavaScript dio más forma a la segunda versión de HTML. Gracias a este lenguaje se podían implementar tablas, imágenes, tipografías e incluso colores. Posteriormente surgió el CSS (hojas de estilo en cascada) con el que se da estilo y forma a los textos.</p>
+    <p>En la tercera versión de HTML se incluyen las etiquetas específicas para los navegadores web como Internet Explorer. Sin embargo, esta decisión sólo causó caos y problemas. Por esta razón se decidió hacer un cambio hacia un estándar único.</p>
+    <p>En esta nueva versión se incluyeron etiquetas como &lt;a&gt;, &lt;estilo&gt;, &lt;java&gt; y &lt;DIV&gt;. Es así que en la versión HTML 4.0 se agregan los botones y el iFrame para poder tener sitios dentro de otros sitios. En 2014 se desarrolló la quinta versión de HTML. Esta actualización llegó con un sin fin de audios, vídeos e inputs.</p>
+   </div>
+
+  
+   <hr>
+     <div>
+    <h2 id="editoreshtml">Editores de HTML</h2>
+    <p>Los editores de HTML son software para crear y editar código HTML. Hay dos tipos principales: editores de texto, como Visual Studio Code y Sublime Text, que permiten codificar directamente; y editores WYSIWYG (What You See Is What You Get), como Adobe Dreamweaver, que ofrecen una interfaz gráfica visual. Otros editores populares incluyen Notepad++, Atom, Brackets y Bluefish</p>
+   </div>
+
+
+   <hr>
+     <div>
+    <h2 id="primerdocuumentoHtml">Tu primer documento de HTML.</h2>
+    <p><pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Mi primera página&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;¡Hola Mundo!&lt;/h1&gt;
+    &lt;p&gt;Este es mi primer documento HTML.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre></p>
+   </div>
+ 
+
+   <hr>
+
+     <div>
+    <h2 id= "etiquetasHtml"> ¿Que son Etiquetas en HTML? </h2> </h2>
+    <p>Las "tags" HTML, o "etiquetas" HTML, son códigos utilizados para "marcar" el texto de una página web, con el fin de dar instrucciones al navegador sobre cómo mostrarlo.</p>
+    <p>Es decir, las etiquetas HTML son el lenguaje utilizado para estructurar y definir el contenido en un documento HTML. Estas etiquetas se encuentran en el HTML (o Lenguaje de Marcado de Hipertexto) de cada página.</p>
+    <p>Cada etiqueta contiene instrucciones sencillas que indican al navegador cómo dar formato al texto y a definir los diversos elementos de la página web. Al aplicar estas etiquetas de marcado a los diferentes elementos del texto, se indica al navegador cómo mostrarlos al usuario, lo que permite crear páginas web estructuradas y con un diseño coherente.</p>
+   </div>
+
+   <hr>
+
+     <div>
+    <h2 id="atributosHtml">Que son atributos en HTML?</h2>
+    <p>
+        Los atributos en HTML son características adicionales que se agregan dentro de una etiqueta 
+        para proporcionar información extra o modificar su comportamiento.
+    </p>
+
+    <p>
+        Siempre van en la etiqueta de apertura y se escriben con la forma: <strong>nombre="valor"</strong>.
+    </p>
+
+    <h2>Ejemplo de un atributo</h2>
+    <p>
+        En la siguiente etiqueta de imagen, los atributos indican la ruta, el texto alternativo 
+        y el tamaño de la imagen:
+    </p>
+
+    <pre>
+&lt;img src="foto.jpg" alt="Foto de perfil" width="200"&gt;
+    </pre>
+
+    <h2>Atributos comunes</h2>
+
+    <h3>1. id</h3>
+    <p>Identifica un elemento de forma única.</p>
+    <pre>
+&lt;div id="cabecera"&gt;&lt;/div&gt;
+    </pre>
+
+    <h3>2. class</h3>
+    <p>Se usa para aplicar estilos CSS o agrupar elementos.</p>
+    <pre>
+&lt;p class="texto-azul"&gt;&lt;/p&gt;
+    </pre>
+
+    <h3>3. href</h3>
+    <p>Define la dirección de un enlace.</p>
+    <pre>
+&lt;a href="https://google.com"&gt;Ir a Google&lt;/a&gt;
+    </pre>
+
+    <h3>4. type</h3>
+    <p>Especifica el tipo de un input.</p>
+    <pre>
+&lt;input type="email"&gt;
+    </pre>
+
+    <h3>5. placeholder</h3>
+    <p>Muestra un texto dentro de un campo antes de escribir.</p>
+    <pre>
+&lt;input type="text" placeholder="Escribe tu nombre"&gt;
+    </pre>
+   </div>
+
+   <hr>
+
+     <div>
+    <h2 id="reglasHtml">Reglas fundamentales en HTML.</h2>
+    <h2>1. Toda página debe iniciar con &lt;!DOCTYPE html&gt;</h2>
+    <p>
+        Esta declaración le indica al navegador que el documento sigue el estándar HTML5.
+    </p>
+
+    <h2>2. Etiquetas principales de un documento HTML</h2>
+    <p>Todo documento debe incluir las etiquetas:</p>
+    <ul>
+        <li>&lt;html&gt;: Encierra todo el contenido.</li>
+        <li>&lt;head&gt;: Contiene información interna, como título y metadatos.</li>
+        <li>&lt;body&gt;: Contiene el contenido visible de la página.</li>
+    </ul>
+
+    <h2>3. Las etiquetas deben abrirse y cerrarse correctamente</h2>
+    <pre>
+&lt;p&gt;Este es un párrafo&lt;/p&gt;
+    </pre>
+
+    <h2>4. Algunas etiquetas no necesitan cierre</h2>
+    <pre>
+&lt;img&gt;
+&lt;br&gt;
+&lt;hr&gt;
+&lt;meta&gt;
+&lt;link&gt;
+    </pre>
+
+    <h2>5. Los atributos van dentro de la etiqueta de apertura</h2>
+    <pre>
+&lt;img src="foto.jpg" alt="Descripción de la imagen"&gt;
+    </pre>
+
+    <h2>6. HTML no distingue mayúsculas y minúsculas</h2>
+    <p>
+        Sin embargo, se recomienda escribir todo en minúsculas para mantener un código limpio.
+    </p>
+
+    <h2>7. Comentarios en HTML</h2>
+    <pre>
+&lt;!-- Esto es un comentario --&gt;
+    </pre>
+
+    <h2>8. La estructura debe ser lógica y jerárquica</h2>
+    <p>
+        Usa correctamente títulos, párrafos, listas, secciones y otros elementos para mantener una buena organización.
+    </p>
+
+    <h2>9. Los espacios múltiples no se muestran</h2>
+    <p>HTML convierte varios espacios en uno solo. Para mantener formato puedes usar:</p>
+    <ul>
+        <li>&amp;nbsp; → Añadir un espacio</li>
+        <li>&lt;pre&gt; → Mantener el formato original</li>
+    </ul>
+
+    <h2>10. Mantén el código ordenado e indentado</h2>
+    <p>
+        Esto facilita la lectura, organización y mantenimiento del código.
+    </p>
+   </div>
+
+   <hr>
+
+     <div>
+    <h2 id="etiquetasdocumentoHtml">Etiquetas para hacer un documento HTML.</h2>
+    <pre>
+1. &lt;!DOCTYPE html&gt;
+Indica que el documento es HTML5.
+
+2. &lt;html&gt;
+Etiqueta raíz que contiene todo el documento.
+
+3. &lt;head&gt;
+Incluye información que no se muestra en la página:
+- Título
+- Metadatos
+- Enlaces a CSS
+- Scripts
+
+4. &lt;meta charset="UTF-8"&gt;
+Permite usar caracteres como ñ, tildes, símbolos, etc.
+
+5. &lt;title&gt;
+Título que aparece en la pestaña del navegador.
+
+6. &lt;body&gt;
+Todo el contenido visible de la página:
+- Textos
+- Imágenes
+- Formularios
+- Botones
+- Tablas
+- Etc.
+    </pre>
+   </div>
+
+   <hr>
+
+   <footer>
+    <center><p>Footer</p></center>
+   </footer>
+</body>
+
+</html>
