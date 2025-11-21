@@ -4,7 +4,10 @@
 <meta charset="UTF-8">
 <title>Atributos HTML</title>
 </head>
-
+<style>
+h1 {text-align: center;}
+table {border-style: double;}
+</style>
 <body>
 
 <header>
@@ -28,7 +31,6 @@
       <a href="contacto.html">Contacto</a>&emsp; &emsp;
       <a href="acercade.html">Acerca de</a>
     </td>
-    <hr>
 
   </tr>
 </table>
@@ -36,8 +38,8 @@
   </header>
 
 <main>
-    <hr>
 <section>
+  <fieldset>
     <h1> JavaScript </h1>
 
     <h2>Contenido</h2>
@@ -46,32 +48,35 @@
         <li> <a href="#comousar">¿Cómo usar JavaScript con HTML?</a></li>
         <li> <a href="#funcionesyeventos">Eventos y funciones</a></li>
     </ol>
-
+<fieldset>
     <article>
         <h3 id="javascript">¿Qué es JavaScript?</h3>
         <p>
             JavaScript es un lenguaje que permite dar interactividad a las páginas web,
             desde formularios dinámicos hasta animaciones y lógica avanzada.
         </p>
-
+</fieldset>
+<fieldset>
         <h3 id="comousar">Cómo usar JavaScript en HTML</h3>
-        <table border="1">
+        <table>
             <tr><td>&lt;script&gt;alert("Hola mundo");&lt;/script&gt;</td></tr>
         </table>
-
+</fieldset>
+<fieldset>
         <h3 id="funcionesyeventos">Eventos y funciones</h3>
-        <table border="1"><tr><td>
+        <table><tr><td>
             &lt;button onclick="saludo()"&gt;Click&lt;/button&gt;<br>
             &lt;script&gt;<br>
             function saludo(){ alert("Hola desde JS"); }<br>
             &lt;/script&gt;
+</fieldset>
         </td></tr></table>
     </article>
 </section>
 </main>
 
 <footer>
-    <a href="../index.html">Volver</a>
+    <a href="../index.html">Inicio</a>
 </footer>
 
 </body>

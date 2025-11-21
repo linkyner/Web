@@ -4,7 +4,11 @@
 <meta charset="UTF-8">
 <title>Index HTML</title>
 </head>
-
+<style>
+h1 {text-align: center;}
+h4 {text-align: center;}
+table {border-style: double;}
+</style>
 <body>
 
 <header>
@@ -28,7 +32,6 @@
       <a href="Html/contacto.html">Contacto</a>&emsp; &emsp;
       <a href="Html/acercade.html">Acerca de</a>&emsp; &emsp;
     </td>
-    <hr>
 
   </tr>
 </table>
@@ -36,7 +39,7 @@
   </header>
 
 <main>
-    <hr>
+    <fieldset>
 <h1>Contenido</h1>
     <ul>
         <ol><a href="#queEsHtml">1- ¿Que es Html?</a></ol>
@@ -49,17 +52,16 @@
         <ol><a href="#etiquetasdocumentoHtml">8- Etiquetas para hacer un Documento Html</a></ol>
     </ul>
 
-   <center><h1>Index.html</h1></center>
-
-
-   <hr>
+    <h1>Index.html</h1>
+    </fieldset>
+  <fieldset>
    <div>
     <h2 id="queEsHtml">¿Que es Html?</h2>
     <p>HTML (Lenguaje de Marcado de Hipertexto) es el código fundamental que se usa para estructurar el contenido de una página web. Su función principal es organizar elementos como texto, imágenes, videos y enlaces mediante etiquetas, lo que permite que los navegadores interpreten y muestren la información en un sitio web. </p>
    </div>
-  </hr>
+</fieldset>
   
-  <hr>
+  <fieldset>
      <div>
     <h2 id="historiaHtml">Historia HTML</h2>
     <p>La historia del HTML empieza en 1989 cuando el investigador Tim Berners-Lee lo inventa con el fin de compartir artículos científicos. La primera versión sólo contaba con 18 etiquetas para texto. Lo que lo hacía especial es que podía ligar varios documentos con el hipertexto. Todo esto se podía visualizar en un navegador llamado World Wide Web.</p>
@@ -70,16 +72,16 @@
     <p>En la tercera versión de HTML se incluyen las etiquetas específicas para los navegadores web como Internet Explorer. Sin embargo, esta decisión sólo causó caos y problemas. Por esta razón se decidió hacer un cambio hacia un estándar único.</p>
     <p>En esta nueva versión se incluyeron etiquetas como &lt;a&gt;, &lt;estilo&gt;, &lt;java&gt; y &lt;DIV&gt;. Es así que en la versión HTML 4.0 se agregan los botones y el iFrame para poder tener sitios dentro de otros sitios. En 2014 se desarrolló la quinta versión de HTML. Esta actualización llegó con un sin fin de audios, vídeos e inputs.</p>
    </div>
-
+    </fieldset>
   
-   <hr>
+<fieldset>
      <div>
     <h2 id="editoreshtml">Editores de HTML</h2>
     <p>Los editores de HTML son software para crear y editar código HTML. Hay dos tipos principales: editores de texto, como Visual Studio Code y Sublime Text, que permiten codificar directamente; y editores WYSIWYG (What You See Is What You Get), como Adobe Dreamweaver, que ofrecen una interfaz gráfica visual. Otros editores populares incluyen Notepad++, Atom, Brackets y Bluefish</p>
    </div>
+</fieldset>
 
-
-   <hr>
+<fieldset>
      <div>
     <h2 id="primerdocuumentoHtml">Tu primer documento de HTML.</h2>
     <p><pre><code>
@@ -95,9 +97,9 @@
 &lt;/html&gt;
 </code></pre></p>
    </div>
- 
+ </fieldset>
 
-   <hr>
+<fieldset>
 
      <div>
     <h2 id= "etiquetasHtml"> ¿Que son Etiquetas en HTML? </h2> </h2>
@@ -105,8 +107,9 @@
     <p>Es decir, las etiquetas HTML son el lenguaje utilizado para estructurar y definir el contenido en un documento HTML. Estas etiquetas se encuentran en el HTML (o Lenguaje de Marcado de Hipertexto) de cada página.</p>
     <p>Cada etiqueta contiene instrucciones sencillas que indican al navegador cómo dar formato al texto y a definir los diversos elementos de la página web. Al aplicar estas etiquetas de marcado a los diferentes elementos del texto, se indica al navegador cómo mostrarlos al usuario, lo que permite crear páginas web estructuradas y con un diseño coherente.</p>
    </div>
+</fieldset>
 
-   <hr>
+ <fieldset>
 
      <div>
     <h2 id="atributosHtml">Que son atributos en HTML?</h2>
@@ -161,8 +164,9 @@
 &lt;input type="text" placeholder="Escribe tu nombre"&gt;
     </pre>
    </div>
+</fieldset>
 
-   <hr>
+<fieldset>
 
      <div>
     <h2 id="reglasHtml">Reglas fundamentales en HTML.</h2>
@@ -225,8 +229,9 @@
         Esto facilita la lectura, organización y mantenimiento del código.
     </p>
    </div>
+</fieldset>
 
-   <hr>
+<fieldset>
 
      <div>
     <h2 id="etiquetasdocumentoHtml">Etiquetas para hacer un documento HTML.</h2>
@@ -261,11 +266,10 @@ Todo el contenido visible de la página:
     </pre>
    </div>
 
-   <hr>
+</fieldset>
 
    <footer>
-    <center><p>Footer</p></center>
-   </footer>
+    <h4>Footer</p></h4>
 </body>
 
 </html>
